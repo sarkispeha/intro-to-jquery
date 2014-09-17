@@ -1,0 +1,55 @@
+.p {
+	font-size: 12px;
+}
+
+.button {
+	text-align: center;
+	width: 20%;
+	margin:auto;
+}
+
+.button-body a {
+	background: #FF0066;
+	border: 1px solid #FF0066;   
+	border-radius: 10px;      
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-h1 a {
+	background: green;
+	border: 1px solid green;   
+	border-radius: 10px;      
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-list a {
+	background: blue;
+	border: 1px solid blue;   
+	border-radius: 10px;      
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-large a {
+	background: #FF0066;
+	border: 1px solid #FF0066;   
+	border-radius: 10px;      
+	padding: 50px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+.
