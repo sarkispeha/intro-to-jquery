@@ -1,10 +1,17 @@
+/* Defaults */
+{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .p {
 	font-size: 12px;
 }
 
 .button {
 	text-align: center;
-	width: 20%;
+	width: 40%;
 	margin:auto;
 }
 
@@ -45,11 +52,23 @@
 	background: #FF0066;
 	border: 1px solid #FF0066;   
 	border-radius: 10px;      
-	padding: 50px;
+	padding: 50px 20px;
 	display: block;
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.3em;
 }
 
-.
+/* Lightbox - from Modularity 1 exercise */  
+
+.popup {
+	padding:20px 10px;
+	width: 400px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 10px;  /*This creates the rounded corners  */
+	position:fixed;
+	left:0;
+	right:0;
+	margin:auto;
+}

@@ -61,14 +61,17 @@ $(document).on('ready', function() {
 	// When you click the large button, pop up a message
 	$(".button-large").on("click", function() {
 		
-		$(".button-large").hide();
-		// Show popup
-		
+		// Append popup HTML/CSS
+		$("body").append("<div class = 'popup'><p>I'm a popup, bitches!</p><button>Close</button></div>");
+		$(".popup").css({ background: #000, width: 400, height: 200 })
 
 	});  /* End of event handler*/
 
+	$(".popup button").click(function() {
 
+		$(".popup").hide();
 
+	});
 
 
 
