@@ -59,20 +59,18 @@ $(document).on('ready', function() {
 	// Part 3
 
 	// When you click the large button, pop up a message
-	$(".button-large").on("click", function() {
+	$(".button-large").click(function() {
 		
 		// Append popup HTML/CSS
-		$("body").append("<div class = 'popup'><p>I'm a popup, bitches!</p><button>Close</button></div>");
-		$(".popup").css({ background: #000, width: 400, height: 200 })
+		$("body").append("<div class = 'popup'><p>I be a popup, bitches!</p><button>Close</button></div>");
+		$(".popup").css({ position: 'fixed', background: '#000', width: 400, height: 200 })
 
-	});  /* End of event handler*/
-
-	$(".popup button").click(function() {
+		$(".popup button").click(function() {
 
 		$(".popup").hide();
 
 	});
-
+});
 
 
 
